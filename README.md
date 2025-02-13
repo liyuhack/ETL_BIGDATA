@@ -74,7 +74,7 @@ Power BI supports DuckDB integration, allowing seamless data visualization. Foll
 
 ---
 
-### 2. How to run and get the result  
+### 4. How to run and get the result  
 Follow the steps below to download, clean, load, and visualize the data:  
 
 1. **clone the repository**  
