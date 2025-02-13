@@ -79,16 +79,32 @@ Follow the steps below to download, clean, load, and visualize the data:
 
 1. **clone the repository**  
    - run this in your terminal 
-   `git clone https://github.com/liyuhack/ETL_BIGDATA.git` 
-   - then change directory `cd ETL_BIGDATA`.
-   - After that to open vscode editor `code .`  
+   ```
+   git clone https://github.com/liyuhack/ETL_BIGDATA.git
+   ```
+   - then change directory 
+   ```
+   cd ETL_BIGDATA
+   ```
+   - After that to open vscode editor 
+   ```
+   code .
+   ```  
 
 2. **Get all dependencies mentioned above and configure them**  
    - install python packages by running the following commands sequencially:  
-     - ```pip install duckdb```  
-     - ```pip install kagglehub``` 
-     - ```pip install pandas```
-     - ```pip install pyspark```
+     ```
+     pip install duckdb
+     ```  
+     ```
+     pip install kagglehub
+     ``` 
+     ```
+     pip install pandas
+     ```
+     ```
+     pip install pyspark
+     ```
 
 3. **Run the files**  
    - step 1: Run
