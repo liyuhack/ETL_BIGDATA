@@ -159,9 +159,13 @@ The dashboards provide actionable insights for e-commerce businesses.
 │   ├── raw/            # Raw dataset downloaded from Kaggle  
 │   ├── cleaned/        # Cleaned dataset (CSV format)  
 │   └── duckdb/         # DuckDB database  
-├── scripts/            # Python scripts for ETL pipeline  
-├── README.md           # Project documentation  
-└── requirements.txt    # Python dependencies  
+├── ETL process documentation.pdf            # PROJECT DOCUMENTATION 
+├── .gitignore                               # GIT FILE 
+├── README.md                                # REPO README FILE  
+├── step_1_download_data_from_kaggle.py      # DOWNLOADS DATA FROM KAGGLE  
+├── step_2_transform_data.py                 # TRANSFORMS DATA  
+├── step_3_load_to_duckdb.py                 # LOAD DATA TO DATABASE  
+└── step_4_power_bi_analysis.pbix            # POWER BI FILE  
 ```  
 
 ---
