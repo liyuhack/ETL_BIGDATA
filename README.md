@@ -1,10 +1,10 @@
-Here’s a professional and clean GitHub README file for your project:
+Name: Biruk Damte ID: DBUR/0344/13
 
 ---
 
 # E-commerce Data Pipeline Project 🚀  
 
-This project demonstrates an end-to-end data pipeline for analyzing an e-commerce dataset. The pipeline involves **data extraction**, **cleaning and transformation**, **storage in DuckDB**, and **visualization using Power BI**.  
+This project demonstrates an end-to-end data pipeline for analyzing an elctornics purchase e-commerce dataset. The pipeline involves **data extraction**, **cleaning and transformation**, **storage in DuckDB**, and **visualization using Power BI**.  
 
 ---
 
@@ -42,7 +42,7 @@ This project demonstrates an end-to-end data pipeline for analyzing an e-commerc
 PySpark requires Hadoop dependencies to function properly. Follow the steps below to set it up:  
 
 1. **Download `winutils.exe` for Hadoop**  
-   Download from [this repository](https://github.com/cdarlint/winutils). Extract the file and place it in a directory, e.g., `C:\hadoop\bin\winutils.exe`.  
+   Download from [this repository](https://github.com/cdarlint/winutils). Extract the folder `hadoop-3.2.2/bin` and place it in a directory, e.g., `C:\hadoop\bin\winutils.exe`.  
 
 2. **Set Environment Variables**  
    - Add a new system variable:  
@@ -71,6 +71,40 @@ For detailed instructions, refer to [Hadoop Setup for PySpark](https://github.co
 ### 3. Power BI Integration with DuckDB  
 
 Power BI supports DuckDB integration, allowing seamless data visualization. Follow this [guide](https://motherduck.com/docs/integrations/bi-tools/powerbi/) to set up Power BI with DuckDB.  
+
+---
+
+### 2. How to run and get the result  
+Follow the steps below to download, clean, load, and visualize the data:  
+
+1. **clone the repository**  
+   - run this in your terminal 
+   `git clone https://github.com/liyuhack/ETL_BIGDATA.git` 
+   - then change directory `cd ETL_BIGDATA`.
+   - After that to open vscode editor `code .`  
+
+2. **Get all dependencies mentioned above and configure them**  
+   - install python packages by running the following commands sequencially:  
+     - ```pip install duckdb```  
+     - ```pip install kagglehub``` 
+     - ```pip install pandas```
+     - ```pip install pyspark```
+
+3. **Run the files**  
+   - step 1: Run
+     `step_1_download_data_from_kaggle.py` 
+     This python code downloads and saves the data to `data/raw` directory
+   - step 2: Run  
+     `step_2_transform_data.py` 
+     This python code clean and transforms the data and save the csv file to `data/cleaned` directory
+   - step 3: Run 
+     `step_3_load_to_duckdb.py` 
+     This python code loads the cleaned data to duckdb database and saves the db file to `data/duckdb` directory
+
+4. **Visualize**  
+
+To visualize the cleaned and loaded data install and open power BI from microsoft store. For details setup process,
+refer to [guide](https://motherduck.com/docs/integrations/bi-tools/powerbi/) . 
 
 ---
 
