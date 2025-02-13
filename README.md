@@ -118,8 +118,7 @@ Follow the steps below to download, clean, load, and visualize the data:
      This python code loads the cleaned data to duckdb database and saves the db file to `data/duckdb` directory
 
 4. **Visualize**  
-
-To visualize the cleaned and loaded data install and open power BI from microsoft store. For details setup process,
+To visualize the cleaned and loaded data, install power BI from microsoft store. For details setup process,
 refer to [guide](https://motherduck.com/docs/integrations/bi-tools/powerbi/) . 
 
 ---
